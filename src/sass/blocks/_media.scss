@@ -4,7 +4,7 @@
     }
 }
 
-@media (max-width: 991px){
+@media (max-width: 992px){
     .container{
         max-width: 750px;
     }
@@ -78,6 +78,20 @@
         }
         &__item{
             max-width: 100%;
+        }
+    }
+    .consultation{
+        .title{
+            &_left{
+                font-size: 22px;
+                line-height: 30px;
+            }
+        }
+        .form-request{
+            width: 289px;
+        }
+        .button_submit{
+            width: 290px;
         }
     }
 }
